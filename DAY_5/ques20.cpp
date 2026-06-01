@@ -8,11 +8,11 @@ int main()
     long long num;
     cout << "Enter a number: ";
     cin >> num;
-    long long largestPrimeFactor=-1;
+    long long largestprimefactor=-1;
 
     while (num%2==0)
      {
-        largestPrimeFactor=2;
+        largestprimefactor=2;
         num /=2;
      }
 
@@ -20,15 +20,15 @@ int main()
     {
         while (num%i==0)
          {
-            largestPrimeFactor=i;
+            largestprimefactor=i;
             num/=i;
          }
     
         if(num>2) 
         {
-        largestPrimeFactor=num;
+        largestprimefactor=num;
         }
     }
-    cout <<"Largest Prime Factor="<<largestPrimeFactor;
+    cout <<"Largest Prime Factor="<<largestprimefactor;
     return 0;
 }
