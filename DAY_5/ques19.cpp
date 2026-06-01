@@ -14,7 +14,7 @@ int main()
     {
         if (num % i == 0) 
         {
-            cout <<i<< " ";
+            cout << i << " ";
         }
     }
     return 0;
